@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 13b75c95f34a00d4e8c04f76b73312e6, type: 3}
-  m_Name: WelcomeBG
+  m_Name: TestBG
   m_EditorClassIdentifier: 
   m_AnimatedSprites:
-  - {fileID: 294811591, guid: c07df31e33de3614fbc9686adfc46115, type: 3}
-  - {fileID: 984603830, guid: c07df31e33de3614fbc9686adfc46115, type: 3}
-  - {fileID: 184673456, guid: c07df31e33de3614fbc9686adfc46115, type: 3}
-  - {fileID: 250612300, guid: c07df31e33de3614fbc9686adfc46115, type: 3}
+  - {fileID: -1314724838, guid: c0e97bee85c91e144b13a04881ddcfb3, type: 3}
+  - {fileID: 960559041, guid: c0e97bee85c91e144b13a04881ddcfb3, type: 3}
+  - {fileID: 1928533155, guid: c0e97bee85c91e144b13a04881ddcfb3, type: 3}
+  - {fileID: -117818306, guid: c0e97bee85c91e144b13a04881ddcfb3, type: 3}
   m_MinSpeed: 1
   m_MaxSpeed: 1
   m_AnimationStartTime: 0

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c07df31e33de3614fbc9686adfc46115
+guid: c0e97bee85c91e144b13a04881ddcfb3
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -117,7 +117,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Welcome_0
+      name: ezgif.com-gif-maker_0
       rect:
         serializedVersion: 2
         x: 0
@@ -131,14 +131,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fcc8ad61d9b5a1849a6726ed4a737abe
-      internalID: 294811591
+      spriteID: e0e3a7fae501aaf43b94878c5a5fa041
+      internalID: -1314724838
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Welcome_1
+      name: ezgif.com-gif-maker_1
       rect:
         serializedVersion: 2
         x: 320
@@ -152,14 +152,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b9df45f2fb138784ab6a8b604af70a52
-      internalID: 984603830
+      spriteID: b1892a44c80fb1045bde4756bd48ea83
+      internalID: 960559041
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Welcome_2
+      name: ezgif.com-gif-maker_2
       rect:
         serializedVersion: 2
         x: 640
@@ -173,14 +173,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 665f5154e116c8f4bb7074f8f7114009
-      internalID: 184673456
+      spriteID: bbd3c6d6e0e7c654ea33de344dbbb126
+      internalID: 1928533155
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Welcome_3
+      name: ezgif.com-gif-maker_3
       rect:
         serializedVersion: 2
         x: 960
@@ -194,8 +194,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 35c46d797d26bf5488c5553e40543f21
-      internalID: 250612300
+      spriteID: 6277660274615494fb74889ac9503ea8
+      internalID: -117818306
       vertices: []
       indices: 
       edges: []
@@ -211,10 +211,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Welcome_3: 250612300
-      Welcome_0: 294811591
-      Welcome_2: 184673456
-      Welcome_1: 984603830
+      ezgif.com-gif-maker_1: 960559041
+      ezgif.com-gif-maker_0: -1314724838
+      ezgif.com-gif-maker_3: -117818306
+      ezgif.com-gif-maker_2: 1928533155
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
