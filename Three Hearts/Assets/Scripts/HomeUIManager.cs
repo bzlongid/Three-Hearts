@@ -2,10 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Tilemaps;
-using UnityEngine.UI;
-using UnityEngine.UIElements;
+using UnityEngine.SceneManagement;
 
-public class UIManager : MonoBehaviour
+public class HomeUIManager : MonoBehaviour
 {
     [SerializeField] GameObject home;
     [SerializeField] GameObject credits;
@@ -33,4 +32,10 @@ public class UIManager : MonoBehaviour
         home.SetActive(false);
         tilemap.SwapTile(homeTile, creditTile);
     }
+
+    public void GoHome()
+    {
+        SceneManager.LoadScene(0);
+    }
+
 }
