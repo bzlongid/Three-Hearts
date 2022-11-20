@@ -11,9 +11,14 @@ public class PushEffect : MonoBehaviour
     {
         if (collision.tag == "Player")
         {
-            Vector3 direction = -collision.gameObject.transform.position;
+            //Vector3 direction = -collision.gameObject.transform.position;
             //collision.gameObject.GetComponentInChildren<Rigidbody2D>().AddForce(direction * force);
-            playerRB.AddForce(direction * force);
+            //playerRB.AddForce(direction * force);
+
+
+            //Temporarily disables controller
+            CharacterController cc = collision.gameObject.GetComponentInParent<CharacterController>();
+            cc.enabled = false;
         }
     }
 }
