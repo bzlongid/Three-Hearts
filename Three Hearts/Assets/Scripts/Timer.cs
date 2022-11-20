@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class Timer : MonoBehaviour
 {
@@ -28,6 +29,8 @@ public class Timer : MonoBehaviour
             {
                 timeLeft = 0;
                 timerRunning = false;
+                Status.win = false;
+                SceneManager.LoadScene(2);
             }
         }
     }
@@ -39,7 +42,7 @@ public class Timer : MonoBehaviour
         float min = Mathf.FloorToInt(curTime / 60);
         float sec = Mathf.FloorToInt(curTime % 60);
 
-        timer.text = string.Format("{0:00}:{1:00}", min, sec);
+        timer.text = sec.ToString();
     }
 
 }

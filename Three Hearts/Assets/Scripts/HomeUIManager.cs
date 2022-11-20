@@ -42,4 +42,9 @@ public class HomeUIManager : MonoBehaviour
     {
         SceneManager.LoadScene(1);
     }
+
+    public void OpenURL(string link)
+    {
+        Application.OpenURL(link);
+    }
 }

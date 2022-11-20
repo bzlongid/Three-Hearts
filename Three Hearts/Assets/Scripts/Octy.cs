@@ -25,4 +25,14 @@ public class Octy : MonoBehaviour
             animator.SetBool("willThrow", false);
         }
     }
+
+    private void Throw()
+    {
+
+    }
+
+    private void Rage()
+    {
+
+    }
 }
