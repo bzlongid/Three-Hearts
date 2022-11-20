@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 2537898777368802833}
   - component: {fileID: 8650733173909468731}
   m_Layer: 0
-  m_Name: LavaRock_0
+  m_Name: LavaRock
   m_TagString: Effect
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

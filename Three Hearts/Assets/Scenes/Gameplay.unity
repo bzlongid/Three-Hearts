@@ -881,6 +881,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -8312944756119583193, guid: 51aa25b451695c0419e38dc10e6eb8b1, type: 3}
+      propertyPath: force
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: -7514583817823065360, guid: 51aa25b451695c0419e38dc10e6eb8b1, type: 3}
       propertyPath: m_BodyType
       value: 1
@@ -2081,7 +2085,6 @@ GameObject:
   - component: {fileID: 1740031802}
   - component: {fileID: 1740031801}
   - component: {fileID: 1740031804}
-  - component: {fileID: 1740031805}
   m_Layer: 0
   m_Name: Guy
   m_TagString: Player
@@ -2189,23 +2192,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9579a96e512749b4db9b968b906aabeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1740031805
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1740031800}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 859531cf235b0bc4f8a98111fb17c4a9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  BlueSpore: {fileID: 0}
-  Flowers: {fileID: 0}
-  LavaRock: {fileID: 0}
-  Stars: {fileID: 0}
-  Water: {fileID: 0}
 --- !u!1 &1918029341
 GameObject:
   m_ObjectHideFlags: 0
