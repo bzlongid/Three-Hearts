@@ -13,16 +13,10 @@ public class GameUIManager : MonoBehaviour
     [SerializeField] Sprite playSprite;
     [SerializeField] Sprite pauseSprite;
 
-    //For restarting:
-    //Vector3 startPstn;
-
     private void Start()
     {
         tint = GameObject.Find("Tint");
         tint.SetActive(false);
-
-        //startPstn = GameObject.Find("Guy").transform.position;
-        //Debug.Log("Original position: " + startPstn);
     }
 
     private void Update()
